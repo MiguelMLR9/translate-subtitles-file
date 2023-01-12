@@ -34,7 +34,7 @@ try:
     phrase=''
     index_number=[]
     translated_text=[]
-    for index, value in enumerate(text[:60]):
+    for index, value in enumerate(text):
         if index==0 or value=="\n" or "-->" in value or (re.fullmatch("[\d]{1,5}\\n",value)and text[index-1]=="\n") or "</font>" in value:
             continue
         if "-->" in text[index-1]:
