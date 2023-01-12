@@ -1,6 +1,6 @@
 # TRANSLATE SUBTITLES FILE USING GOOGLE TRANSLATE API
 
-This file will help you to translate a subtitles file (.srt, per example) from a source language to a destination language,
+This file will help you to translate a subtitles file (.srt, per example) from a source language to a destination language, generating a new subtitles file
 this file use google translate API, so you need to install it to work.
 
 ## Requirements
